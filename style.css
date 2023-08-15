@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import "@fontsource/fraunces";
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color:  hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-principal {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: max-content;
+
+}
+
+.foto-perfume img {
+    width: 280px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 100%;
+}
+
+.sobre {
+    padding: 0 26px;
+}
+
+.categoria {
+    margin-top: 30px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+.titulo {
+    font-family: Fraunces, sans-serif;
+    color: hsl(212, 21%, 14%);
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.descricao {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+
+.valor {
+    display: flex;
+}
+
+.preco-atual {
+    top: 20px;
+    font-family: Fraunces, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    margin-right: 15px;
+    color: hsl(158, 36%, 37%);
+}
+
+.preco-original {
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.botao {
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: hsl(158, 36%, 26%);
+}
+
+
+#carrinho {
+    margin-right: 5px;
+}
